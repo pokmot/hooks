@@ -1,0 +1,8 @@
+# IDE exclusions
+
+# PhpStorm
+.idea/
+
+# Other files
+vendor/
+composer.lock

@@ -1,0 +1,15 @@
+{
+  "name": "pokmot/hooks",
+  "description": "Wordpress Hooks Reworked",
+  "keywords": ["Hooks", "Event"],
+  "minimum-stability": "stable",
+  "license": "GPLv2",
+  "support": {
+    "source": "https://gitbucket.com/pokmot/hooks"
+  },
+  "autoload": {
+    "psr-4": {
+      "pokmot\\Hooks\\": "src/"
+    }
+  }
+}
