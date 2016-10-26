@@ -18,7 +18,8 @@ Add a filter:
 ```
 Hooks::addFilter('my_filter_name', 'filter_function');
 Hooks::addFilter('my_filter_name', '\My\Namespaced\Class::static_filter_method');
-Hooks::addFilter('my_filter_name', [$this, 'static_filter_method']);```
+Hooks::addFilter('my_filter_name', [$this, 'static_filter_method']);
+```
 
 The above filters are all added with standard priority and will be executed in order.
 
