@@ -29,11 +29,11 @@ Call a filter:
 
 You can add an event instead.
 
-`Hooks::addEvent('my_filter_name', 'filter_function');`
+`Hooks::addEvent('my_event_name', 'filter_function');`
 
 Trigger an event:
 
-`Hooks::trigger('my_filter_name');`
+`Hooks::trigger('my_event_name');`
 
 You can pass any number of arguments; only the first argument will be changed by the function (UNLESS they are objects - no cloning involved):
 
